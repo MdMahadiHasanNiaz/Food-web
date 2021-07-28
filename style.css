@@ -13,7 +13,7 @@ span{
 }
 
 p{
-    font-size: 22.5px;
+    font-size: 22px;
 }
 
 a{
@@ -32,11 +32,10 @@ button{
 
 button:hover{
     color: orange;
-    background-color: white;
-    border: 2px solid orange;
+    border: 2px solid white;
 }
 
-.first-image{
+.first-image {
     height:500px;
     width: 500px;
     border-radius: 50%;
@@ -44,7 +43,7 @@ button:hover{
 
 .first-section {
     display: flex;
-    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-image: url(images/shapes/Frame\ 58.jpg);
     background-repeat: no-repeat;
 }
 
@@ -52,4 +51,105 @@ button:hover{
     width: 50%;
     margin: 50px;
     padding-left: 15px;
+}
+
+.second-image{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 750;
+}
+
+.second-section{
+    margin-top: 15px;
+    display: flex;
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.recipies  {
+    height: 100px;
+    width: 1000px;
+    text-align:center;
+    margin-left: 235px;
+    margin-bottom: 30px;
+}
+
+.threediv img{
+    height: 250px;
+    width: 280px;
+    border-radius: 20px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.third-section div{
+    height: 480px;
+    width: 300px;
+    margin-left: 45px;
+    text-align: center;
+}
+
+.third-section{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 225px;
+    
+}
+
+.threediv{
+    margin-bottom: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px gray;
+}
+
+.optional{
+    background-color: rgb(216, 211, 211);
+    color: rgb(125, 125, 125);
+   display: flex;
+   margin-bottom: 100px;
+   width: 1000px;
+   height: 200px;
+   margin-top: 20px;
+   margin-left: 300px;
+   box-shadow: 10px 10px 30px gray;
+   border-radius: 25px;
+}
+
+.optional-width{
+    width: 20%;
+    margin-left: 80px;
+    padding-left: 30px;
+}
+
+.optional-width h2,p{
+    text-align:;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(4, 4, 19);
+}
+
+.food, .network {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.network{
+    color: grey;
+}
+
+footer p{
+    color: white;
 }
